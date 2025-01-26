@@ -25,7 +25,7 @@ const Header = () => {
         if (data.current) {
           setTemperature(data.current.temp_c); // Setting the temperature in Celsius
           setCondition(data.current.condition.text); // Weather condition (e.g., Clear)
-          setIcon(data.current.condition.icon); // Weather icon
+          setIcon(data.current.condition.icon); 
         } else {
           setError('Unable to fetch temperature');
         }
